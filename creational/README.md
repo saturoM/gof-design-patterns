@@ -8,4 +8,6 @@
 | 2 | Factory Method | [02-factory-method.md](02-factory-method.md) |
 | 3 | Abstract Factory | [03-abstract-factory.md](03-abstract-factory.md) |
 | 4 | Builder | [04-builder.md](04-builder.md) |
-| 5 | Prototype | |
+| 5 | Prototype | [05-prototype.md](05-prototype.md) |
+
+**Полиця завершена** ✅ (2026-09-11)

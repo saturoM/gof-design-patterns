@@ -6,7 +6,7 @@
 2. Питання-підвід (2+ «так» → цей патерн)  
 3. Плюси (2)  
 4. Мінуси (2)  
-5. Приклад PSP  
+5. Приклади: fintech / e-commerce / gambling  
 
 ---
 
@@ -39,7 +39,13 @@
 1. Як глобальна змінна — важко мокати  
 2. Два api-процеси = два «одинаки»  
 
-**PSP:** логер — так · Invoice / гроші — ні → Postgres (SoT).
+**Приклади**
+
+| Домен | Так | Ні |
+|---|---|---|
+| Fintech | логер api; метрики процесу | Invoice, баланс → БД |
+| E-commerce | feature-flags/config процесу | Order, кошик → БД/сесія |
+| Gambling | логер game-gateway | bet, wallet, jackpot → ledger/БД |
 
 ---
 
@@ -60,7 +66,13 @@
 1. Зайвий шар, якщо тип завжди один  
 2. Легко переускладнити просту factory-функцію  
 
-**PSP:** створити on-ramp **або** off-ramp інвойс.
+**Приклади**
+
+| Домен | Factory Method |
+|---|---|
+| Fintech | створити on-ramp **або** off-ramp інвойс |
+| E-commerce | створити Listing: товар / послуга / аукціон |
+| Gambling | створити сесію гри: slots / roulette / blackjack |
 
 ---
 
@@ -81,7 +93,13 @@
 1. Багато класів/інтерфейсів  
 2. Новий член сімʼї → правки всіх фабрик  
 
-**PSP:** mock-стек або live-стек (rail + FX + signer).
+**Приклади**
+
+| Домен | Abstract Factory (комплект теми) |
+|---|---|
+| Fintech | mock **або** live: rail + FX + signer |
+| E-commerce | ринок UA **або** EU: currency + VAT + shipping + pay |
+| Gambling | ліцензія A **або** B: RNG + KYC + wallet rules |
 
 ---
 
@@ -102,7 +120,13 @@
 1. Overkill для 2–3 полів  
 2. Більше коду (builder + steps)  
 
-**PSP:** invoice: amount → FX → fees → create.
+**Приклади**
+
+| Домен | Builder (один складний) |
+|---|---|
+| Fintech | invoice: amount → FX → fees → create |
+| E-commerce | listing: title → price → photos → shipping → publish |
+| Gambling | bonus: % → wagering → games whitelist → expiry → activate |
 
 ---
 
@@ -123,7 +147,13 @@
 1. Треба акуратний deep copy  
 2. Поганий шаблон розмножує помилки  
 
-**PSP:** дублікат шаблонного інвойса + новий amount.
+**Приклади**
+
+| Домен | Prototype (клон шаблону) |
+|---|---|
+| Fintech | дублікат шаблонного інвойса + новий amount |
+| E-commerce | «створити схожий listing» з існуючого |
+| Gambling | клон бонусного офера на нову кампанію |
 
 ---
 

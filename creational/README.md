@@ -11,3 +11,5 @@
 | 5 | Prototype | [05-prototype.md](05-prototype.md) |
 
 **Полиця завершена** ✅ (2026-09-11)
+
+Повтор: [REVIEW.md](REVIEW.md) — плюси/мінуси + питання-підвід.

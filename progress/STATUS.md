@@ -5,7 +5,7 @@
 | 0 | Вступ (код під зміну) | — | ✅ | 2026-09-11 |
 | 1 | Singleton | Creational | ✅ | 2026-09-11 |
 | 2 | Factory Method | Creational | ✅ | 2026-09-11 |
-| 3 | Abstract Factory | Creational | ⬜ | |
+| 3 | Abstract Factory | Creational | ✅ | 2026-09-11 |
 | 4 | Builder | Creational | ⬜ | |
 | 5 | Prototype | Creational | ⬜ | |
 | 6 | Adapter | Structural | ⬜ | |

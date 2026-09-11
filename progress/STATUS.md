@@ -3,7 +3,7 @@
 | # | Патерн | Група | Статус | Дата |
 |---|---|---|---|---|
 | 0 | Вступ (код під зміну) | — | ✅ | 2026-09-11 |
-| 1 | Singleton | Creational | 🔄 in progress | 2026-09-11 |
+| 1 | Singleton | Creational | ✅ | 2026-09-11 |
 | 2 | Factory Method | Creational | ⬜ | |
 | 3 | Abstract Factory | Creational | ⬜ | |
 | 4 | Builder | Creational | ⬜ | |

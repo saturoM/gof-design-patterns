@@ -11,7 +11,7 @@ Creational питав *як народити*. Structural — *як скласт
 | 1 | Adapter | [01-adapter.md](01-adapter.md) — чужий інтерфейс під наш |
 | 2 | Bridge | [02-bridge.md](02-bridge.md) — дві осі через посилання |
 | 3 | Composite | [03-composite.md](03-composite.md) — лист і гілка один інтерфейс |
-| 4 | Decorator | додати поведінку обгортками |
+| 4 | Decorator | [04-decorator.md](04-decorator.md) — обгортки з тим самим інтерфейсом |
 | 5 | Facade | простий вхід до складної підсистеми |
 | 6 | Flyweight | багато обʼєктів ділять спільний стан |
 | 7 | Proxy | заступник (доступ / лінь / лог) |

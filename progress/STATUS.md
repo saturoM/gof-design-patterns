@@ -11,7 +11,7 @@
 | 6 | Adapter | Structural | ✅ | 2026-09-12 |
 | 7 | Bridge | Structural | ✅ | 2026-09-12 |
 | 8 | Composite | Structural | ✅ | 2026-09-12 |
-| 9 | Decorator | Structural | ⬜ | |
+| 9 | Decorator | Structural | ✅ | 2026-09-12 |
 | 10 | Facade | Structural | ⬜ | |
 | 11 | Flyweight | Structural | ⬜ | |
 | 12 | Proxy | Structural | ⬜ | |

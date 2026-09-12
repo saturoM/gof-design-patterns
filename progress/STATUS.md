@@ -9,7 +9,7 @@
 | 4 | Builder | Creational | ✅ | 2026-09-11 |
 | 5 | Prototype | Creational | ✅ | 2026-09-11 |
 | 6 | Adapter | Structural | ✅ | 2026-09-12 |
-| 7 | Bridge | Structural | ⬜ | |
+| 7 | Bridge | Structural | ✅ | 2026-09-12 |
 | 8 | Composite | Structural | ⬜ | |
 | 9 | Decorator | Structural | ⬜ | |
 | 10 | Facade | Structural | ⬜ | |
